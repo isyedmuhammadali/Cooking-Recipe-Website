@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+h1,h1,h3,h4,h5,h6,p,html,body{
+    margin: 0;
+    padding: 0
+}
+h2{
+    font-size:20px;
+    line-height: 30px;
+    font-weight:400;
+}
+
+h4{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+
+}
+*::after , *::before , *{
+    box-sizing: border-box;
+}
+
+
+body,button{
+    font-family: "Open Sans", sans-serif;
+    
+}
+body{
+    margin :0.5em;
+    background-color: rgba(0, 0, 0, 0.366);
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.mainContainer{
+    width:100%;
+}
+
+.frontLabel{
+    background-image: url(./images/banner.jpg);
+    /* background: url(./images/banner.jpg); */
+    height:300px;
+    display: flex;
+    border-radius: 1em;
+    object-fit: cover;
+    background-size: cover;
+    justify-content: center;
+    border : 0.5px solid black;
+    padding: 0.5em;
+    
+}
+.navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.766);
+    justify-content: center;
+    gap: 3em;
+    border-radius: 1em;
+    border : 0.5px solid white;
+    height: fit-content;
+}
+
+
+
+.nav-btn{
+    background-color: none;
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: red;
+}
+
+.nav-btn:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.midContainer{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.5em;
+    
+}
+
+
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:30%;
+    background-color: rgba(10, 10, 10, 0.677);
+    padding:0.5em;
+    border-radius: 0.5em;
+    border: 1px solid gray;
+
+}
+#searchBtn{
+    border: none;
+    background: none;
+}
+#searchBtn:hover{
+    color: white;
+    cursor: pointer;
+}
+#searchCat{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    background-color:rgba(232, 68, 68, 0);
+    color: white;
+}
+#searchCat::placeholder{
+    color: black;
+    
+
+}
+
+
+.dishItem{
+    padding-top: 1em;
+    display: flex;
+    gap:1em;
+
+}
+
+.CatoImage{
+    display: flex;
+    height:200px;
+    width:210px;
+    border-radius: 0.5em;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: azure;
+    font-weight: bolder;
+    padding: 0.5em;
+    justify-content: center;
+    border:1px solid black;
+    text-decoration: underline;
+    align-items: center;
+}
+
+
+
+
+.CatoImage:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+#ChickenBiryani{
+  background-image: url(./images/biryani.jpeg);
+}
+#ChickenQourma{
+    background-image: url(./images/Quarma.jpg);
+}
+#ChickenKarahi{
+    background-image: url(./images/karahi.jpeg);
+}
+#ChickenPaluo{  
+    background-image: url(./images/Palau.jpg);
+}
+#ChickenHandi{
+    background-image: url(./images/handi.jpg);
+}
+
+#ChickenManchorian{
+    background-image: url(./images/manchurian.jpeg);
+}
+#VegitableRice{
+    background-image: url(./images/vegirice.jpeg);
+}
+#Nodels{
+    background-image: url(./images/nodles.jpg);
+}
+#Dumpliks{
+    background-image: url(./images/dumplinks.jpg);
+}
+#MeatBall{
+    background-image: url(./images/meatbals.jpg);
+}
+
+
+
+#Pasta{ 
+    background-image: url(./images/pasta.jpeg);
+}
+#Microni{
+    background-image: url(./images/Microni.jpg);
+}
+#BeefStake{
+    background-image: url(./images/beefstake.jpeg);
+}
+#GalyicBread{
+    background-image: url(./images/garlyicbread.jpg);
+}
+#HotDogs{
+    background-image: url(./images/hotdog.jpg);
+}
+
+
+#BeefBurger{
+    background-image: url(./images/beefb.jpeg);
+}
+#PettyBurger{
+    background-image: url(./images/pburger.jpg)
+}
+#ZingerBurger{
+    background-image: url(./images/zburger.jpeg);
+}
+#ChickenShawarma{
+    background-image: url(./images/cshawarma.jpg);
+}
+#ZingerShawarma{
+    background-image: url(./images/zsharma.jpeg);
+}
+
+
+
+#ChoclateCake{
+    background-image: url(./images/Chocolate.webp);
+}
+#Donuts{
+    background-image: url(./images/donut.jpeg);
+}
+#LavaCake{
+    background-image: url(./images/lava\ Cake.jpeg);
+}
+#IceShake{
+    background-image: url(./images/iceshake.jpeg);
+}
+#LotasShake{
+    background-image: url(./images/lotassha.jpg);
+}
+
+
+.dishtitle{
+    background-color: rgba(243, 237, 237, 0.351)
+}
