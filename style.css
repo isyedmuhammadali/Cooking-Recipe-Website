@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
 h1,h1,h3,h4,h5,h6,p,html,body{
     margin: 0;
     padding: 0
@@ -25,8 +26,8 @@ body,button{
     
 }
 body{
-    margin :0.5em;
-    background-color: rgba(0, 0, 0, 0.366);
+    /* margin :0.5em; */
+    background-color: #FAF1E4;
 
 }
 
@@ -43,25 +44,27 @@ img{
 
 .frontLabel{
     background-image: url(./images/banner.jpg);
-    /* background: url(./images/banner.jpg); */
     height:300px;
     display: flex;
-    border-radius: 1em;
     object-fit: cover;
     background-size: cover;
     justify-content: center;
-    border : 0.5px solid black;
-    padding: 0.5em;
+    align-items: center;
     
 }
 .navbar{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.766);
     justify-content: center;
-    gap: 3em;
-    border-radius: 1em;
-    border : 0.5px solid white;
+    background-color: #4353349b;
     height: fit-content;
+    width: 100%;
+}
+.navbar img{
+    width:150px;
+    height: 150px;;
+    border-radius: 100%;
+    background: none;
+    background-color: none;
 }
 
 
@@ -81,12 +84,16 @@ img{
 }
 
 .midContainer{
+
+    padding: 3em;
     padding-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:1.5em;
+    position: relative;
+
     
 }
 
@@ -96,18 +103,21 @@ img{
     justify-content: space-between;
     align-items: center;
     width:30%;
-    background-color: rgba(10, 10, 10, 0.677);
+    background-color: #9EB384;
     padding:0.5em;
     border-radius: 0.5em;
-    border: 1px solid gray;
+    box-shadow: 4px 4px 4px #CEDEBD
+
 
 }
 #searchBtn{
     border: none;
     background: none;
+    color: #435334;
+    font-size: larger;
 }
 #searchBtn:hover{
-    color: white;
+    color: #435334;
     cursor: pointer;
 }
 #searchCat{
@@ -115,135 +125,177 @@ img{
     border: none;
     background: none;
     outline: none;
-    background-color:rgba(232, 68, 68, 0);
-    color: white;
+    background-color:#9EB384;
+    color: #435334;
 }
 #searchCat::placeholder{
-    color: black;
+    color: #435334;
+    font-style: italic;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
     
 
 }
 
 
 .dishItem{
+    justify-content: center;
     padding-top: 1em;
     display: flex;
-    gap:1em;
+    flex-wrap: wrap;
+    gap: 1em;
+    position: relative;
+    
 
 }
-
 .CatoImage{
     display: flex;
     height:200px;
     width:210px;
-    border-radius: 0.5em;
+    
     object-fit: cover;
     background-size: cover;
     background-position: center;
     background-color: azure;
     font-weight: bolder;
-    padding: 0.5em;
     justify-content: center;
-    border:1px solid black;
     text-decoration: underline;
     align-items: center;
+    box-shadow: 2px 2px 5px #435334;
+    border-radius: 1em;
 }
-
-
-
 
 .CatoImage:hover{
     cursor: pointer;
     opacity: 0.7;
 }
 
-
-#ChickenBiryani{
-  background-image: url(./images/biryani.jpeg);
-}
-#ChickenQourma{
-    background-image: url(./images/Quarma.jpg);
-}
-#ChickenKarahi{
-    background-image: url(./images/karahi.jpeg);
-}
-#ChickenPaluo{  
-    background-image: url(./images/Palau.jpg);
-}
-#ChickenHandi{
-    background-image: url(./images/handi.jpg);
-}
-
-#ChickenManchorian{
-    background-image: url(./images/manchurian.jpeg);
-}
-#VegitableRice{
-    background-image: url(./images/vegirice.jpeg);
-}
-#Nodels{
-    background-image: url(./images/nodles.jpg);
-}
-#Dumpliks{
-    background-image: url(./images/dumplinks.jpg);
-}
-#MeatBall{
-    background-image: url(./images/meatbals.jpg);
-}
-
-
-
-#Pasta{ 
-    background-image: url(./images/pasta.jpeg);
-}
-#Microni{
-    background-image: url(./images/Microni.jpg);
-}
-#BeefStake{
-    background-image: url(./images/beefstake.jpeg);
-}
-#GalyicBread{
-    background-image: url(./images/garlyicbread.jpg);
-}
-#HotDogs{
-    background-image: url(./images/hotdog.jpg);
-}
-
-
-#BeefBurger{
-    background-image: url(./images/beefb.jpeg);
-}
-#PettyBurger{
-    background-image: url(./images/pburger.jpg)
-}
-#ZingerBurger{
-    background-image: url(./images/zburger.jpeg);
-}
-#ChickenShawarma{
-    background-image: url(./images/cshawarma.jpg);
-}
-#ZingerShawarma{
-    background-image: url(./images/zsharma.jpeg);
-}
-
-
-
-#ChoclateCake{
-    background-image: url(./images/Chocolate.webp);
-}
-#Donuts{
-    background-image: url(./images/donut.jpeg);
-}
-#LavaCake{
-    background-image: url(./images/lava\ Cake.jpeg);
-}
-#IceShake{
-    background-image: url(./images/iceshake.jpeg);
-}
-#LotasShake{
-    background-image: url(./images/lotassha.jpg);
-}
-
-
 .dishtitle{
-    background-color: rgba(243, 237, 237, 0.351)
+    /* text-shadow: 2px 2px 5px #9EB384; */
+    background-color: #CEDEBD;
+    position: absolute;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 1em;
+    color: #435334;
+}
+
+
+.recipe-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+/*----------------------------------------------------*/
+
+.hide{
+    display:none;
+}
+#recipeUI{
+    width: 100%;
+    height: 100%;
+}
+.recipeContainer{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #FAF1E4;
+    position: relative;
+    padding: 1em;
+    gap:1em;
+
+ }
+
+
+ .Content{
+    display: flex;
+    height: 100%;
+ }
+
+ .recipeInfo{
+    display:flex;
+    gap:1em;
+    padding: 1em;
+    flex-direction: column;
+    width: 50%;
+    border-right: 1.5px solid #CEDEBD;
+ }
+ 
+ #recipeTitle{
+    color:#435334 ;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+ #recipeImg{
+    height:300px;
+    width: 400px;
+    box-shadow: 4px 4px 4px #9EB384;
+    object-fit: cover;
+    background-size: cover;
+    align-self: center;
+    border-radius: 1em;
+}
+
+#recipeheading2 , #recipeheading1 {
+    margin: 0;
+    border-bottom: 0.5px solid #CEDEBD;
+    color: #435334;
+    padding-bottom:0.5em ;
+    font-weight: bold;
+    font-size: 25px;
+ }
+
+
+
+  #instructions, #Ingredients{
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #435334;
+    margin: 0;
+    
+ } 
+
+ .recipeInstruction{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding: 1em;
+    padding-left: 2em;
+    width: 50%;
+    border-left: 1.5px solid #CEDEBD;
+ }
+ #instructions{
+    font-size: 20px;
+    padding-left: 1.5em;
+ }
+
+
+#closebtn{
+    font-size: 35px;
+    color: #435334;
+    background:none;
+    cursor: pointer;
+    border: none;
+    
+
+}
+
+.head{
+    
+    position: absolute;
+    right:0;
+    
 }
